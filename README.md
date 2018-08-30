@@ -28,7 +28,7 @@ Special Resolvers
 }
 ```
 
-### Create User
+### Create User using autoId() for automatically generating ID
 
 ```vtl
 {
