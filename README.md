@@ -6,7 +6,7 @@
 
 Special Resolvers
 
-### Create Question
+### Create Question (resolver with added auto-generated timestamp)
 
 ```vtl
 #set($data = $ctx.args.input)
@@ -47,7 +47,7 @@ Special Resolvers
 }
 ```
 
-### Accessing the User identity in a resolver
+### Accessing the User identity in a resolver (resolver accessing $ctx.identity)
 
 ```vtl
 #set($input = $ctx.args.input)
